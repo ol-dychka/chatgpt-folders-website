@@ -1,15 +1,14 @@
-import AboutMe from "./AboutMe";
-import Extension from "./Extension";
-import Header from "./Header";
-import Links from "./Links";
+import MainPage from "./MainPage";
+import PrivacyPolicy from "./PrivacyPolicy";
+import { Route, Switch } from "wouter";
 
 function App() {
   return (
     <>
-      <Header />
-      <AboutMe />
-      <Extension />
-      <Links />
+      <Switch>
+        <Route path="/" component={MainPage} />
+        <Route path="privacy-policy" component={PrivacyPolicy} />
+      </Switch>
     </>
   );
 }

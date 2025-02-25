@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <div className="flex flex-col items-center justify-center py-12">
       <div
-        className="p-2 font-mono rounded-lg text-lg text-slate-500 flex cursor-pointer font-semibold hover:text-slate-600"
+        className="p-2 font-mono rounded-lg text-lg text-slate-500 flex cursor-pointer font-semibold hover:text-slate-700"
         onClick={() => setOpen(!open)}
       >
         About Me&nbsp;
