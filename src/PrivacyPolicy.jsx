@@ -15,10 +15,12 @@ const PrivacyPolicy = () => {
       <div>
         <p className="text-2xl font-semibold text-slate-700">Data Collection</p>
         <p>
-          We do not collect or share any personal information, browsing data, or
-          any other data while you use this extension. All functionality of the
-          extension happens locally on your device, and no data is sent to
-          external servers.
+          We do not collect, share, or transmit any personal information,
+          browsing data, or any other user data while you use this extension.
+          All functionality of the extension happens locally on your device, and
+          no data is sent to external servers. Extension doesn’t access personal
+          or sensitive user data, in line with the Chrome Web Store’s
+          guidelines.
         </p>
       </div>
       <div>
