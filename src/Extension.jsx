@@ -2,9 +2,9 @@ import WebStore from "./assets/webstore.svg";
 
 const Extension = () => {
   return (
-    <div className="bg-white flex justify-around font-medium p-24 text-slate-700 text-xl shadow-xl">
-      <div className="flex gap-4 items-center">
-        <img src={WebStore} alt="extension icon" className=" h-12 w-12" />
+    <div className="flex flex-col items-center justify-around gap-8 bg-white p-12 text-xl font-medium text-slate-700 shadow-xl sm:flex-row sm:p-24">
+      <div className="flex items-center gap-4">
+        <img src={WebStore} alt="extension icon" className="h-12 w-12" />
         <a
           href="https://chromewebstore.google.com/detail/chatgpt-folders/akgpkjgpdobkagnipbohfpagjmbpjnfb"
           target="_blank"
