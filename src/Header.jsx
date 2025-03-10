@@ -9,7 +9,7 @@ export default function Header() {
         <p className="mt-8 max-w-3xl text-lg font-medium text-slate-700">
           This extension helps to organize your ChatGPT responses into custom
           folders for easy access later. With a simple drag-and-drop interface,
-          you can sort and save important conversations, making it effortless to
+          you can save and sort important conversations, making it effortless to
           manage and revisit key information.
         </p>
       </div>

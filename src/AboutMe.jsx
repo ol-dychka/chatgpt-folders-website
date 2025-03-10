@@ -22,9 +22,9 @@ export default function AboutMe() {
       {open && (
         <div className="text-md max-w-3xl space-y-4 font-mono text-slate-500 sm:text-lg">
           <p>
-            Hello! I’m Alex, a junior Front-End developer based in Toronto,
-            Canada. Originally from Ukraine, I moved here with my mother after
-            studying Computer Science for two years at a university back home.
+            Hello! I’m Alex, a Front-End developer based in Toronto, Canada.
+            Originally from Ukraine, I moved here after studying Computer
+            Science for two years at a university back home.
           </p>
           <p>
             Though I couldn’t complete my degree, I continued developing my
@@ -40,6 +40,10 @@ export default function AboutMe() {
           <p>
             Instead of letting my work go to waste, I modified the code and
             decided to release it for free. Hope you find it useful!
+          </p>
+          <p>
+            You can still support me with a small donation, which I would
+            appreciate! Just click on a button below.
           </p>
         </div>
       )}
